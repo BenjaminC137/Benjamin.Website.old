@@ -6,14 +6,10 @@ html{
     line-height: 1.5;
 }
 
-
 /*
-
 Teal	Light Teal	Orange	Yellow	Brown
-#00878F	#62AEB2	#E47128	#E5AD24	#8C7965
+#00878F	#62AEB2	    #E47128	#E5AD24	#8C7965
 */
-
-
 
    .flexcontainer{
        display: flex;
@@ -51,7 +47,6 @@ header{
     font-size: 20px;
 }
 h1,h2,h3,h4{
-        
         color: #00878F;
         text-align: right;
 }
@@ -59,8 +54,9 @@ h1,h2,h3,h4{
 h1{
     background-image: url(assests/rick-prison.png);
     background-repeat: no-repeat;
-    background-position: 50px,;
+    background-position: 50;
     background-size: 10%;
+    height: 10vw;
     color: #E47128;
     text-transform: uppercase;   
 
