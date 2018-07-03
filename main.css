@@ -2,7 +2,7 @@ html{
     background-color:#62AEB2;
     color: #8C7965;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -44,7 +44,7 @@ margin-right: auto;
 */
 header{
 /*    text-align: center;*/
-    font-size: 14px;
+    font-size: 6vw;
 }
 h1,h2,h3,h4{
         color: #00878F;
@@ -69,9 +69,10 @@ a{
 }
 
 body{
+	background-color: aliceblue;
     padding: 40px;
     margin: 20px;
-    font-size: 12px;
+    font-size: 24px;
     border: 12px hidden;
     border-radius: 25px;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
@@ -113,29 +114,38 @@ image{
     max-width: 100%;
 }
 
-@media screen and (min-width: 512px){
+@media screen and (min-width: 500px){
    .row{
         display: flex;
         flex-direction: column;
     }
     body{
-        
         background-color: ghostwhite;
-        }
+    	       font-size: 20px;
+	}
+	header{
+/*    text-align: center;*/
+    font-size: 22px;
 }
 
 @media screen and (min-width: 900px){
     body{
         background-color: lightgray;
+	font-size: 16px;
+
     }
+	header{
+/*    text-align: center;*/
+    font-size: 18px;
 }
 @media screen and (min-width: 1240px){
     body{
         background-color: white;
         display: block;
+	font-size: 12px;
+
     }
+	header{
+/*    text-align: center;*/
+    font-size: 14px;
 }
-
-
-
-
