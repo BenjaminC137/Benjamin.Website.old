@@ -1,65 +1,23 @@
 html{
-    background-color:#62AEB2;
+    background-color:#ffffff;
     color: #8C7965;
     font-family: sans-serif;
-    font-size: 20px;
-/*    line-height: 1.5;*/
+    font-size: 12px;
 }
+/*	Teal 		#00878F
+	Light Teal	#62AEB2
+	Orange	 	#E47128
+	Yellow		#E5AD24	 rgba(229, 173, 36, .9)
+	Brown 		#8C7965
+	other 		#ECF1F1     */
 
-/*
-Teal	Light Teal	Orange	Yellow	Brown
-#00878F	#62AEB2	    #E47128	#E5AD24	#8C7965
-*/
-
-/*
-   .flexcontainer{
-       display: flex;
-       flex-direction: row;
-       justify-content: flex-end;
-       height: 80px;
-    }
-.container{
-        width: 75%;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin: 0 auto;
-}
-*/
-/*
-.item{
-     padding: 10px;
-}
-
-.item-1{
-margin-right: auto;
-}
-*/
-
-/*
-.item a{
-        text-decoration: none;
-   box-sizing: border-box;
-    display: inline-block;
-    border-color:crimson;
-    border-width: thick;
-}
-*/
-/*
-header{
-
-}
-*/
 h1,h2,h3,h4{
         color: #00878F;
         text-align: right;
 }
-
 h2{
-    background-image: url(assests/rick-prison.png);
-    background-repeat: no-repeat;
-    background-size: 10%;
     color: #E47128;
-	padding: 20px;
+	padding: 10px;
     text-transform: uppercase;   
 }
 
@@ -67,17 +25,65 @@ a{
     text-decoration: none;
     color: #E5AD24;
 }
-
+a:hover{
+	color: #00878F;
+	text-decoration: none;
+}
+.container{
+/*	padding-right: 500px;*/
+}
 body{
-	background-color: aliceblue;
-    padding: 40px;
-    margin: 20px;
-    font-size: 14px;
+	background-color: #ECF1F1;
+    margin: 10px;
+	padding: 15px;
+    font-size: 12px;
+	color: #8C7965;
     border: 12px hidden;
     border-radius: 25px;
-    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica';
+    font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans';
+}
+body p{
+	background-color: rgba(255,255,255, .3);
+padding: 2px;
+	border-style: hidden;
+	border-radius: 5px;
+}
+/*
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+*/
+
+
+.custom-toggler.navbar-toggler {
+    border-color: #E5AD24;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#E5AD24' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.custom-toggler.navbar-toggler:hover {
+    border-color: #ECF1F1;
+}
+
+.navColors{
+	color: #E5AD24;
+	margin: auto;
+	background-color: rgba(0, 135, 143, .9);
+
+background-image: url(data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
+	border-radius: 15px;
+}
+.navColors a:hover{
+	color: #ECF1F1 !important; }
+
+.removePadding{
+	padding: 0;
+}
+footer{
+	text-align: center;
+	text-shadow: 1px 21px 1px white;
+}
 table{
     width: 50vw; 
 }
