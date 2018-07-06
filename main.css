@@ -166,7 +166,7 @@ footer{
 @include media-breakpoint-up(xl) { 
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 576px) { 
 	.top{
 		bottom: 10px;
 		right: 10px;
