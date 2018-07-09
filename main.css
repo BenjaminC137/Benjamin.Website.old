@@ -158,6 +158,9 @@ footer{
 	outline-width: 3px;
 	outline color: #E5AD24;
 }
+.image-lock{
+	max-width: 150px; height: auto
+}
 .rounded-image{
 	border-style: hidden;
 /*	border-width: 15px;*/
