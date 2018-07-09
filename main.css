@@ -152,6 +152,11 @@ footer{
 	outline-width: 3px;
 	outline color: #E5AD24;
 }
+.rounded-image{
+	border-style: hidden;
+/*	padding: */
+	border-width: 15px;
+}
 
 
 @include media-breakpoint-up(sm) { 
