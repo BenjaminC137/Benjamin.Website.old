@@ -40,7 +40,7 @@ document.onkeypress = function(e){
 	}
 
 	if(e.key == 'd'){ //move right
-		left += 25;
+		left += 20;
 		left += "px"
 		box.style.left = left;
 
@@ -54,7 +54,7 @@ document.onkeypress = function(e){
 	}
 
 	if(e.key == 's'){ //move down
-		top += 25;
+		top += 20;
 		top += "px"
 		box.style.top = top;
 
@@ -69,7 +69,7 @@ document.onkeypress = function(e){
 	}
 
 	if(e.key == 'a'){ //move left
-	left -= 25;
+	left -= 20;
 	left += "px"
 	box.style.left = left;
 
@@ -82,7 +82,7 @@ document.onkeypress = function(e){
 	}
 
 	if(e.key == 'w'){ //move up
-		top -= 25;
+		top -= 20;
 		top += "px"
 		box.style.top = top;
 
@@ -121,7 +121,7 @@ document.onclick = function (coords){
 
 if(((coords.x < left + 51) && (coords.x > left + 13)) && ((coords.y < top + 66) && (coords.y > top + 13))){
 	console.log("hit");
-	box.style.backgroundColor = "red";
+	box.style.backgroundColor = "orange";
 }
 	else{
 		box.style.backgroundColor = null;
