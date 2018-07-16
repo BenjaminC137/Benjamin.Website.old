@@ -10,41 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
     <title>Benjamin Salasek</title>
 
-<!--
-	 <style>
-            box{
-                position: absolute;
-                top: 128px;
-                left: 256px;
-                height: 64px;
-                width: 64px;
-				background-color: none;
-				background-image: url(images/walker.png);
-				background-position-x: 256px;
-				background-position-y: 128px;
-
-            }
-
-			fireball{
-                position: absolute;
-                top: 0px;
-                left: -40px;
-                height: 32px;
-                width: 32px;
-				background-image: url(images/fireball.png);
-				background-position-x: 0;
-				background-position-y: 0;
-            }
-        </style>
--->
-
-
 </head>
-	
 <body>
 	<header>
 	</header>
-
 	<nav class="sticky-top navbar navbar-expand-lg navColors">
 		<a class="navbar-brand" href="index.html">
 			<img class="navColors" src="assests/rick-prison.png"width="35px" class="d-inline-block align-top" alt="rick" title="rick"> Benjamin.Website</a>
@@ -69,6 +38,12 @@
 		<li class="nav-item">
         <a class="nav-link" href="box.html">Fireball Game!</a>
       	</li>
+		<li class="nav-item">
+        <a class="nav-link" href="http://urldotcom.com">urldotcom.com</a>
+      	</li>
+		<li class="nav-item">
+        <a class="nav-link" href="weather.html">Weather</a>
+      	</li>
     </ul>
   </div>
 	</nav>
@@ -87,7 +62,7 @@
 
     		<div class="col">
 				<p>
-				Lorem ipsid est laborum.
+				Lorem <b> highlightingness</b>ipsid est laborum.
 				</p>
 			</div>
 
@@ -152,6 +127,14 @@
 		<p>
 			2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
+		<form id="nameForm" onsubmit="return getFormValues()">
+
+		First name: <input type="text" name="f" placeholder="Enter First Name">
+			<br>
+		Last name: <input type="text" name="l" placeholder="Enter Last Name">
+			<br>
+			<input type="submit"value="Submit">
+		</form>
     </div>
 			
     <div class="col-8 col-sm-4 col-md-3 ">
@@ -176,12 +159,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-<!--
-        <box></box>
-		<fireball></fireball>
-        <script src="box.js"></script>
--->
+<script src="app.js"></script>
+<script src="box.js"></script>
 
-<script src="app.js"></script> // my js
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
 </body>
 </html>

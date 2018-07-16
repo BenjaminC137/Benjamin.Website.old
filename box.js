@@ -126,5 +126,20 @@ if(((coords.x < left + 51) && (coords.x > left + 13)) && ((coords.y < top + 66) 
 	else{
 		box.style.backgroundColor = null;
 	}
-
 }
+
+function getFormValues(){
+	var f = document.getElementsByName("f")[0];
+	var l = document.getElementsByName("l")[0];
+
+	console.log(f.value);
+    console.log(l.value);
+}
+
+$("p").mouseover(e => {
+	$("body").css("background-color", "yellow");
+})
+
+$("p").mouseout(e => {
+	$("body").css("background-color", "inherit");
+})
