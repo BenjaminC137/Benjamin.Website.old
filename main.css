@@ -159,10 +159,22 @@ footer{
 	outline color: #E5AD24;
 }
 .image-lock{
-	 height: inherit; width: auto;
+	height: inherit; width: auto;
 	align-content: center;
 	align-items:center;
 /*	text-align: center;*/
+}
+.resume{
+	display: inline-block;
+	width: 55vw;
+	height: 60vh;
+	border-style: hidden;
+	border-radius: 20px;
+	background-color: rgba(255,255,255, .5);
+	padding: 5px;
+	margin: 5px;
+	padding-bottom: 90px;
+	
 }
 .rounded-image{
 	border-style: hidden;
