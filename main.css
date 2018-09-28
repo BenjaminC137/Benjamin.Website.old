@@ -7,7 +7,8 @@
 	text-align: center;
 }
 .arduinoCarousel{
-	width: 50%;
+	max-width: 50%;
+	height: 10%;
 }
 html{
     background-color:#ffffff;
@@ -88,6 +89,10 @@ body p{
     outline-color: #E5AD24;
 	outline-width: 3px;
 }
+
+div img{
+    width: 40%;
+    height: auto;}
 
 .navColors {
 	color: #E5AD24;
