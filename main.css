@@ -1,7 +1,9 @@
 .alert{
+	font-size: 8 px;
 	background-color: rgb(183, 48, 40);
 	color: #E5AD24;
 	border-radius: 50px;
+	padding: 1px;
 	text-align: center;
 }
 .arduinoCarousel{
@@ -181,6 +183,15 @@ footer{
 	height: inherit; width: auto;
 	align-content: center;
 	align-items:center;
+/*	text-align: center;*/
+}
+.image-lock-80{
+	display: inline-block;
+	align-content: center;
+	align-items:center;
+	max-width: 80vw;
+	text-align: center;
+	
 /*	text-align: center;*/
 }
 .resume{
